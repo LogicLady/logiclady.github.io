@@ -16,7 +16,7 @@
       <label for="telephone">Phone Number &nbsp;<small>(Optional)</small></label><br>  
     <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"><br><br>  
       <label for="email-subject">Subject</label><br>  
-      <input type="text" name="_subject" id="email-subject" placeholder="Reason for Contacting" required=""><br><br>  
+      <input type="text" name="_subject" id="email-subject" style="width:100%" placeholder="Reason for Contacting" required=""><br><br>  
     <label for="message">Message</label><br>  
     <textarea rows="6" name="message" id="message" placeholder="Please provide a message explaining your reason for reaching out or how I can be of assistance." required=""></textarea><br><br>  
     <input type="submit" value="Send Message">  
