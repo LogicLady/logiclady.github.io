@@ -8,16 +8,16 @@
       method="post"
 >  
   <fieldset id="fs-frm-inputs">  
-    <label for="full-name">Full Name</label>  
-    <input type="text" name="name" id="full-name" placeholder="First and Last Name" required=""><br>  
-    <label for="email-address">Email Address</label>  
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br>  
-      <label for="telephone">Phone Number &nbsp;<small>(Optional)</small></label>  
-    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"><br>  
-      <label for="email-subject">Subject</label>  
-      <input type="text" name="_subject" id="email-subject" placeholder="Reason for Contacting" required=""><br>  
-    <label for="message">Message</label>  
-    <textarea rows="6" name="message" id="message" placeholder="Please provide a message explaining your reason for reaching out or how I can be of assistance." required=""></textarea><br>  
+    <label for="full-name">Full Name</label><br>  
+    <input type="text" name="name" id="full-name" placeholder="First and Last Name" required=""><br><br>  
+    <label for="email-address">Email Address</label><br>  
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>  
+      <label for="telephone">Phone Number &nbsp;<small>(Optional)</small></label><br>  
+    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"><br><br>  
+      <label for="email-subject">Subject</label><br>  
+      <input type="text" name="_subject" id="email-subject" placeholder="Reason for Contacting" required=""><br><br>  
+    <label for="message">Message</label><br>  
+    <textarea rows="6" name="message" id="message" placeholder="Please provide a message explaining your reason for reaching out or how I can be of assistance." required=""></textarea><br><br>  
     <input type="submit" value="Send Message">  
   </fieldset>  
 </form>  
