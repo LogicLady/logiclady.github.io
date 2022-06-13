@@ -17,8 +17,6 @@
       <input type="text" name="_subject" id="email-subject" placeholder="Reason for Contacting" required="">
     <label for="message">Message</label>
     <textarea rows="6" name="message" id="message" placeholder="Please provide a message explaining your reason for reaching out or how I can be of assistance." required=""></textarea>
-        <label for="file">Attachment(s) &nbsp;<small>(maximum: 10 files)</small></label>
-    <input type="file" name="attachment" multiple>
     <input type="submit" value="Send Message">
   </fieldset>
 </form>
